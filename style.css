@@ -1,0 +1,141 @@
+* {
+    font-family: Nova Square, cursive;
+
+}
+
+.logo{
+    margin-left:550px;
+}
+.lorem { display: flex; justify-content: center;
+}
+
+.img1 { 
+    background-image:linear-gradient(180deg, rgba(249,249,251,1) 0%, rgba(0,255,205,0) 100%), url(./switzerland-862870_1920.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.lorem {
+    font-size: 100px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    color:darkred;
+
+}
+.timeline{
+    width:200px;
+    border-bottom:4px solid darkred;
+    padding:0px 10px;
+    position:relative;
+    
+
+
+}
+.coloretimeline1{
+    background-color: #ececec;
+}
+.paragrafo1::after { 
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border:2px solid darkred;
+    border-radius: 50%;
+    position: absolute;
+    bottom:calc(0px - 7px);
+    
+    
+    
+    
+
+}
+ .time-line2 { margin-top: 20px;
+    margin-left: 30px;
+    width: 50%;
+    border-left: 4px solid darkred;
+    padding: 0px 10px;
+    position: relative;
+ }
+ .circle::before {
+     content:'';
+     width: 10px;
+     height: 10px;
+     border-radius: 50%;
+     background-color: white;
+     border: 2px solid darkred;
+     position: absolute;
+     left:calc(0px - 7px)
+ }
+ .ourtimeline { color: darkred;
+    text-transform: uppercase;
+}
+.Titolo{
+    color:darkred;
+}
+.custom-botton{
+    width: 15%;
+    height: vh;
+    text-transform: uppercase;
+    color:white;
+    background-color: darkred;
+    border:none;
+}
+
+
+.colore1{
+    background-color:#ececec;
+}
+.alberi1{
+    width:100%;
+    height:50vh;
+    background-color: #ececec;
+}
+/* Colore icone Prima timeline */
+.coloreicone{
+    color:darkred;
+}
+/* Fine Colore Icone Prima Timeline */
+
+/*Sezione Our Team */
+.colore2{
+    color:darkred;
+    font-size:30px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+.bordo{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:4px solid darkred;
+    padding:5px;
+}
+.colorOurteam{
+    color:darkred;
+    text-transform: uppercase;
+
+}
+/* Fine Sezione Our Team */
+
+/* Inizio Sezione Our Benefits */
+.bordo2{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    border:5px solid darkred;
+    padding:4px;
+}
+/* Fine sezione Our Benefits */
+
+/* Inizio Footer */
+.alberirossi{
+    width:100%;
+}
+.coloresfondo{
+    background-color:darkred;
+}
+.decoration{
+    text-decoration:none;
+    color:white;
+}
+/* Fine Footer */
